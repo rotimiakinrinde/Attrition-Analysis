@@ -32,7 +32,7 @@ The dataset had missing values in critical features: Age (9.98%), Monthly Income
 
 **Removing Duplicates:**
 
-The presence of 408 duplicate rows could distort insights and model learning. Duplicate rows were identified and dropped to ensure the dataset only contained unique records. this is to enhanced data quality and prevent redundancy, which could negatively affect the model’s generalisation.
+The presence of 408 duplicate rows could distort insights and model learning. Duplicate rows were identified and dropped to ensure the dataset only contained unique records. This is to enhance data quality and prevent redundancy, which could negatively affect the model’s generalisation.
 ![Remove duplicates](https://github.com/user-attachments/assets/e6c84b18-4eb2-4e5a-bc83-0954db05439f)
 
 **Outlier Treatment:**
