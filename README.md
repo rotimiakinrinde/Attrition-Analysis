@@ -43,12 +43,12 @@ Outliers were present in Age, Monthly Income, and Years at Company, potentially 
 
 ## Modelling
 
-### Logistic Regression Model
+**1.  Logistic Regression Model**
 
 Logistic Regression was selected as a baseline model due to its simplicity and interpretability in binary classification problems. It is particularly useful for estimating the probability of attrition (binary outcome: Yes/No).
 The optimal hyperparameters improved the model’s precision and recall, but the accuracy remained at 56%, indicating potential underfitting.
 
-**2. Random Forest Classifier**
+**2.  Random Forest Classifier**
 
 Random Forest was chosen for its ability to handle complex datasets and provide key insights. 
 
