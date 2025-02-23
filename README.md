@@ -6,8 +6,7 @@ Global Talent Solutions (GTS) is a multinational company specialising in providi
 
 ### Problem Statement
 
-GTS has noticed an alarming trend of employee attrition within its own workforce. Over the past year, the company recorded a 20% attrition rate, significantly higher than the industry average of 12%. High employee attrition disrupts operations, increases recruitment costs, and negatively impacts client satisfaction.
-GTS wants to identify factors influencing employee attrition and predict which employees are most likely to leave. This will enable the HR team to implement targeted retention strategies.
+Employee attrition can significantly impact organizational performance, leading to increased hiring and training costs, reduced productivity, and potential disruptions to business operations. By understanding the patterns and predictors of attrition, GTS can implement targeted strategies to retain top talent and enhance workplace satisfaction.
 
 ### Project Rationale
 
