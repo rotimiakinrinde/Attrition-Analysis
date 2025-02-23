@@ -6,11 +6,11 @@ Global Talent Solutions (GTS) is a multinational company specialising in providi
 
 ### Problem Statement
 
-Employee attrition can significantly impact organizational performance, leading to increased hiring and training costs, reduced productivity, and potential disruptions to business operations. By understanding the patterns and predictors of attrition, GTS can implement targeted strategies to retain top talent and enhance workplace satisfaction.
+Employee attrition can significantly impact organisational performance, leading to increased hiring and training costs, reduced productivity, and potential disruptions to business operations. By understanding the patterns and predictors of attrition, GTS can implement targeted strategies to retain top talent and enhance workplace satisfaction.
 
 ### Project Rationale
 
-**Reduce Costs:** Minimize the expenses related to hiring and onboarding replacements.
+**Reduce Costs:** Minimise the expenses related to hiring and onboarding replacements.
 
 **Improve Workforce Stability:** Retain experienced employees who are critical to client success.
 
@@ -37,7 +37,7 @@ The presence of 408 duplicate rows could distort insights and model learning. Du
 
 **Outlier Treatment:**
 
-Outliers were present in Age, Monthly Income, and Years at Company, potentially skewing the model. Interquartile Range (IQR) Method: Outliers were detected and adjusted to bring extreme values within a reasonable range. This is to improved the stability of machine learning algorithms, especially those sensitive to feature scaling.
+Outliers were present in Age, Monthly Income, and Years at Company, potentially skewing the model. The Interquartile Range (IQR) Method was used and outliers were detected and adjusted to bring extreme values within a reasonable range. This is to improved the stability of machine learning algorithms, especially those sensitive to feature scaling.
 ![Outliers Boxplot](https://github.com/user-attachments/assets/c87f58a3-f6d0-4776-957a-ea7cd6629d82)
 ![IQR use](https://github.com/user-attachments/assets/8f8a73f3-1a3a-4e45-9686-e8e77b643656)
 
@@ -50,7 +50,7 @@ The optimal hyperparameters improved the model’s precision and recall, but the
 
 **2. Random Forest Classifier**
 
-Random Forest was chosen for its ability to handle complex datasets and provide feature importance insights. 
+Random Forest was chosen for its ability to handle complex datasets and provide key insights. 
 
 ![Model](https://github.com/user-attachments/assets/f4eba769-d9f3-4970-825f-ee8340e47b73)
 
