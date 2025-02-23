@@ -37,7 +37,7 @@ The presence of 408 duplicate rows could distort insights and model learning. Du
 
 **Outlier Treatment:**
 
-Outliers were present in Age, Monthly Income, and Years at Company, potentially skewing the model. The Interquartile Range (IQR) Method was used and outliers were detected and adjusted to bring extreme values within a reasonable range. This is to improved the stability of machine learning algorithms, especially those sensitive to feature scaling.
+Outliers were present in Age, Monthly Income, and Years at Company, potentially skewing the model. The Interquartile Range (IQR) Method was used and outliers were detected and adjusted to bring extreme values within a reasonable range. This is to improve the stability of machine learning algorithms, especially those sensitive to feature scaling.
 ![Outliers Boxplot](https://github.com/user-attachments/assets/c87f58a3-f6d0-4776-957a-ea7cd6629d82)
 ![IQR use](https://github.com/user-attachments/assets/8f8a73f3-1a3a-4e45-9686-e8e77b643656)
 
