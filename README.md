@@ -1,4 +1,4 @@
-# GTS Attrition-Analysis
+# Attrition-Analysis
 
 ### Business Overview
 
@@ -28,14 +28,20 @@ The preprocessing techniques used in the employee attrition analysis were carefu
 **Missing Values:**
 
 The dataset had missing values in critical features: Age (9.98%), Monthly Income (10.04%), and Job Satisfaction (9.91%). Handled missing values using: Median Imputation: For numerical values like Age. Mode Imputation: For categorical values like Job Satisfaction.
+![Missing Values bar](https://github.com/user-attachments/assets/a1acf096-19a4-4cd5-af72-d27b073f9cc3)
+![Fillin in missing values](https://github.com/user-attachments/assets/76e9953b-c710-487f-b5d0-564f3b57d983)
 
 **Removing Duplicates:**
 
 The presence of 408 duplicate rows could distort insights and model learning. Duplicate rows were identified and dropped to ensure the dataset only contained unique records. this is to enhanced data quality and prevent redundancy, which could negatively affect the model’s generalisation.
+![Remove duplicates](https://github.com/user-attachments/assets/e6c84b18-4eb2-4e5a-bc83-0954db05439f)
 
 **Outlier Treatment:**
 
 Outliers were present in Age, Monthly Income, and Years at Company, potentially skewing the model. Interquartile Range (IQR) Method: Outliers were detected and adjusted to bring extreme values within a reasonable range. This is to improved the stability of machine learning algorithms, especially those sensitive to feature scaling.
+![Outliers Boxplot](https://github.com/user-attachments/assets/c87f58a3-f6d0-4776-957a-ea7cd6629d82)
+![IQR use](https://github.com/user-attachments/assets/8f8a73f3-1a3a-4e45-9686-e8e77b643656)
+
 
 **Model Performance Comparison**
 
@@ -56,7 +62,7 @@ F1 Score: 0.56
 
 Accuracy: 56%, Confusion Matrix:, True Positives (1,1): 704, True Negatives (0,0): 620
 
-False Positives/Negatives: Higher error rate in misclassifying attrition cases. The low accuracy, precision, recall, and F1 score indicate underfitting.
+False Positives/Negatives reflects a higher error rate in misclassifying attrition cases. The low accuracy, precision, recall, and F1 score indicate underfitting.
 
 **B. Random Forest Classifier**
 
@@ -74,12 +80,9 @@ Accuracy: 87%
 |              **Recall**               |             0.87              |
 |              **F1 Score**             |             0.87              |
 
+![Model evaluation](https://github.com/user-attachments/assets/37164979-45e7-45af-aeaa-99318cf34193)
 
 **Confusion Matrix:**
-True Positives (1,1): 925
-True Negatives (0,0): 1036
-False Positives: 156
-False Negatives: 266
 
 |                 Model                	|         True Positives        |      True Negatives      |     False Positives    |    False Negatives    |
 | ------------------------------------- | ----------------------------- | ------------------------ | ---------------------- | --------------------- |
