@@ -18,7 +18,7 @@ Employee attrition can significantly impact organizational performance, leading 
 
 **Support Data-Driven Decisions:** Empower the HR team with actionable insights to improve workplace policies.
 
-### Data Preprocessing & Modeling Pipeline
+## Data Preprocessing & Modeling Pipeline
 
 The preprocessing techniques used in the employee attrition analysis were carefully selected to address data quality issues and enhance model performance. 
 
@@ -41,8 +41,21 @@ Outliers were present in Age, Monthly Income, and Years at Company, potentially 
 ![Outliers Boxplot](https://github.com/user-attachments/assets/c87f58a3-f6d0-4776-957a-ea7cd6629d82)
 ![IQR use](https://github.com/user-attachments/assets/8f8a73f3-1a3a-4e45-9686-e8e77b643656)
 
+## Modelling
 
-**Model Performance Comparison**
+### Logistic Regression Model
+
+Logistic Regression was selected as a baseline model due to its simplicity and interpretability in binary classification problems. It is particularly useful for estimating the probability of attrition (binary outcome: Yes/No).
+The optimal hyperparameters improved the model’s precision and recall, but the accuracy remained at 56%, indicating potential underfitting.
+
+**2. Random Forest Classifier**
+
+Random Forest was chosen for its ability to handle complex datasets and provide feature importance insights. 
+
+![Model](https://github.com/user-attachments/assets/f4eba769-d9f3-4970-825f-ee8340e47b73)
+
+
+### Model Performance Comparison
 
 **A. Logistic Regression Model**
 
@@ -79,6 +92,8 @@ Accuracy: 87%
 |              **Recall**               |             0.87              |
 |              **F1 Score**             |             0.87              |
 
+The 87% accuracy on the test data, demonstrats improved generalisation but also highlighting the need for further regularisation or pruning to avoid overfitting.
+
 ![Model evaluation](https://github.com/user-attachments/assets/37164979-45e7-45af-aeaa-99318cf34193)
 
 **Confusion Matrix:**
@@ -88,7 +103,47 @@ Accuracy: 87%
 |        **Logistic Regression**        |	             704              |           620            |          High          |         High          |
 |            **Random Forest**          |              925              |           1036           |          156           |         266           |
 
+## Key Insights
+
+### A.  Employee Attrition Patterns:
+
+**High Attrition Groups:**
+
+-  Employees with low job satisfaction and poor work-life balance are at a significantly higher risk of attrition.
+-  Individuals with lower monthly incomes are more likely to leave the company.
+
+**Demographic Insights:**
+
+-  Younger employees and those with shorter tenures at the company show a higher likelihood of attrition, indicating potential issues with onboarding and integration processes.
+
+**Organizational Factors:**
+
+-  Departments with limited growth opportunities and roles with high workloads contribute to attrition.
+-  Overtime workers show higher attrition, suggesting burnout as a critical factor.
+
+###  B.  Model-Driven Insights:
+
+-  Random Forest Classifier outperformed Logistic Regression with an accuracy of 87% on test data, highlighting its strength in identifying complex relationships within the data.
+-  The Confusion Matrix of Random Forest demonstrated fewer false positives and negatives, indicating reliable classification of attrition cases.
+-  The Feature Importance Analysis (from Random Forest) revealed that Job Satisfaction, Monthly Income, Work-Life Balance, and Age are among the top predictors of attrition.
 
 
+## Recommendations
+
+-  **Improve Job Satisfaction:** Launch regular surveys and feedback loops to identify pain points.
+
+-  **Enhance Work-Life Balance:** Introduce flexible work policies and monitor overtime practices.
+
+-  **Invest in Training:** Provide development opportunities, mentorship programs, and clear career paths.
+
+-  **Optimise Compensation:** Benchmark against industry standards and adjust salaries accordingly.
+
+-  **Targeted Retention Initiatives:** Develop tailored strategies for high-risk demographics and departments.
+
+-  **Evaluate Impact:** Regularly track attrition rates, employee satisfaction scores, and productivity metrics.
+
+## Conclusion
+
+The employee attrition analysis for GTS reveals critical insights into the drivers of turnover and offers a data-driven roadmap to enhance retention strategies. By prioritising job satisfaction, work-life balance, and targeted development programs, GTS can create a positive work environment, reduce attrition, and achieve long-term organisational success.
 
 
