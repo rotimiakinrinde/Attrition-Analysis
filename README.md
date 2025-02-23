@@ -92,7 +92,7 @@ Accuracy: 87%
 |              **Recall**               |             0.87              |
 |              **F1 Score**             |             0.87              |
 
-The 87% accuracy on the test data, demonstrats improved generalisation but also highlighting the need for further regularisation or pruning to avoid overfitting.
+The 87% accuracy on the test data, demonstrates improved generalisation but also highlighting the need for further regularisation or pruning to avoid overfitting.
 
 ![Model evaluation](https://github.com/user-attachments/assets/37164979-45e7-45af-aeaa-99318cf34193)
 
