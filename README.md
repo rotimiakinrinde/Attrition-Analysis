@@ -46,7 +46,7 @@ Outliers were present in Age, Monthly Income, and Years at Company, potentially 
 
 **A. Logistic Regression Model**
 
-Training Data Performance:
+**Training Data Performance:**
 Accuracy: 56%
 Precision: 0.56
 Recall: 0.56
